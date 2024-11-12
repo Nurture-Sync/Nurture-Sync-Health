@@ -1,7 +1,8 @@
 import streamlit as st
 from PIL import Image
 import numpy as np
-from tensorflow.keras.applications import MobileNetV2, preprocess_input, decode_predictions
+from tensorflow.keras.applications import MobileNetV2, decode_predictions
+from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 import requests
 import matplotlib.pyplot as plt
 import seaborn as sns
