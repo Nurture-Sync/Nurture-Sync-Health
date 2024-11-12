@@ -3,3 +3,4 @@ streamlit-lottie
 firebase-admin
 lottie
 requests
+plotly
