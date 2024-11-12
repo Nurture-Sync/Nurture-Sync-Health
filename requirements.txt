@@ -1,7 +1,12 @@
 streamlit
 streamlit-lottie
+streamlit-option-menu
 firebase-admin
 lottie
+Pillow
+numpy
+tensorflow
 requests
 plotly
-streamlit-option-menu
+matplotlib
+seaborn
