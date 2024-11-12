@@ -10,7 +10,7 @@ import json
 def initialize_firebase():
     if not firebase_admin._apps:
         # Provide the path to your service account JSON file
-        cred = credentials.Certificate("C:\\Users\\knand\\OneDrive\\Desktop\\NS-Auth\\assets\\nurture-sync-99cb5fa4cc76.json")
+        cred = credentials.Certificate('./assets/nurture-sync-99cb5fa4cc76.json')
         firebase_admin.initialize_app(cred)
 
 # Call this function to initialize Firebase

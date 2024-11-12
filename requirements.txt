@@ -1,5 +1,7 @@
 streamlit
+streamlit-lottie
 firebase-admin
-firebase-auth
 lottie
 requests
+plotly
+streamlit-option-menu
