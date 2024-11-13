@@ -7,7 +7,6 @@ from pages1.report import report
 from pages1.cal_est2 import est2
 from pages1.calorie_est import cal_est
 from pages1.health_questionnaire import show_patient_questionnaire
-from chatbot.app import setup_chatbot
 from pages2.ask_doctor import Ask_doctor
 from pages2.community import show as community_show
 from pages2.discussion_forum import Discuss
