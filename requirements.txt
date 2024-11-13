@@ -21,3 +21,4 @@ huggingface-hub
 pypdf
 pymupdf
 pymongo
+pydantic
