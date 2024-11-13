@@ -21,4 +21,5 @@ huggingface-hub
 pypdf
 pymupdf
 pymongo
-pydantic
+pydantic==1.8.2
+transformers
