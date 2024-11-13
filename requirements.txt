@@ -20,4 +20,4 @@ tiktoken
 huggingface-hub
 pypdf
 pymupdf
-
+pymongo
