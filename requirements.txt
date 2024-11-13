@@ -13,15 +13,11 @@ seaborn
 langchain
 torch
 accelerate
-transformers
-sentence_transformers
 streamlit_chat
 faiss-cpu
 altair
 tiktoken
 huggingface-hub
 pypdf
-ctransformers
 pymupdf
-llama-cpp-python
 
