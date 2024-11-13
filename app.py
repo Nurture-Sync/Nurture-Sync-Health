@@ -24,8 +24,8 @@ if 'community_selected' not in st.session_state:
 with st.sidebar:
     selected = option_menu(
         menu_title="Main Menu",
-        options=["Landing Page","Patient Questionnaire", "Profile", "Track", "Report", "Calorie Estimate", "Track Food", "Chatbot",  "Community"],
-        icons=["house","clipboard-heart", "person-circle", "activity", "file-earmark-arrow-down", "calculator", "basket", "chat-dots",  "people"],
+        options=["Landing Page","Patient Questionnaire", "Profile", "Track", "Report", "Calorie Estimate", "Track Food",   "Community"],
+        icons=["house","clipboard-heart", "person-circle", "activity", "file-earmark-arrow-down", "calculator", "basket",   "people"],
         menu_icon="cast",
         default_index=0
     )
@@ -44,8 +44,6 @@ elif st.session_state.selected == "Calorie Estimate":
     cal_est()
 elif st.session_state.selected == "Track Food":
     est2()
-elif st.session_state.selected == "Chatbot":
-    setup_chatbot()
 elif st.session_state.selected == "Patient Questionnaire":
     show_patient_questionnaire()
 elif st.session_state.selected == "Community":
