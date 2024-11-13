@@ -150,7 +150,7 @@ def app():
         if st.button('Sign out'):
             st.session_state.update(signed_in=False, username=None)
             st.success("Signed out successfully.")
-            st.experimental_rerun()  # Refresh the page
+            st.rerun()  # Refresh the page
 
 # Run the app
 if __name__ == "__main__":
