@@ -5,12 +5,12 @@ firebase-admin
 lottie
 Pillow
 numpy
+langchain
 tensorflow
 requests
 plotly
 matplotlib
 seaborn
-langchain==0.3.8
 torch
 accelerate
 streamlit_chat
