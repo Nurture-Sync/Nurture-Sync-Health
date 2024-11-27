@@ -23,4 +23,4 @@ pymupdf
 pymongo
 pydantic==1.10.0
 transformers
-
+openai
