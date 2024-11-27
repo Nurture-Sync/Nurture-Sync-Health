@@ -4,7 +4,7 @@ streamlit-option-menu
 firebase-admin
 lottie
 Pillow
-langchain==0.0.264
+langchain>=0.0.331,<0.6.0
 numpy
 tensorflow
 requests
