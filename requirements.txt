@@ -5,7 +5,7 @@ firebase-admin
 lottie
 Pillow
 numpy
-langchain
+langchain>=0.4.0
 tensorflow
 requests
 plotly
@@ -23,4 +23,3 @@ pymupdf
 pymongo
 pydantic==1.10.0
 transformers
-openai
