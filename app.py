@@ -5,6 +5,7 @@ from pages1.profile import home1
 from pages1.track import track
 from pages1.report import report
 from pages1.cal_est2 import est2
+from pages1.chatbot import setup_syncbot
 from pages1.calorie_est import cal_est
 from pages1.health_questionnaire import show_patient_questionnaire
 from pages2.ask_doctor import Ask_doctor
@@ -23,8 +24,8 @@ if 'community_selected' not in st.session_state:
 with st.sidebar:
     selected = option_menu(
         menu_title="Main Menu",
-        options=["Landing Page","Patient Questionnaire", "Profile", "Track", "Report", "Calorie Estimate", "Track Food",   "Community"],
-        icons=["house","clipboard-heart", "person-circle", "activity", "file-earmark-arrow-down", "calculator", "basket",   "people"],
+        options=["Landing Page","Patient Questionnaire", "Profile", "Track", "Report", "Calorie Estimate", "Track Food", "Chatbot",  "Community"],
+        icons=["house","clipboard-heart", "person-circle", "activity", "file-earmark-arrow-down", "calculator", "basket",   "chat", "people"],
         menu_icon="cast",
         default_index=0
     )
@@ -45,6 +46,8 @@ elif st.session_state.selected == "Track Food":
     est2()
 elif st.session_state.selected == "Patient Questionnaire":
     show_patient_questionnaire()
+elif st.session_state.selected == "Chatbot":
+    setup_syncbot()
 elif st.session_state.selected == "Community":
     # Sidebar navigation for Community section
     with st.sidebar:
