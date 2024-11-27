@@ -5,7 +5,7 @@ firebase-admin
 lottie
 Pillow
 numpy
-langchain>=0.4.0
+langchain=0.4.0
 tensorflow
 requests
 plotly
